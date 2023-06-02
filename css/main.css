@@ -67,20 +67,38 @@ body {
     color: #99ad90;
 }
 .intro p {
-    width: fit-content;
+    display: flex;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
     font-weight: 700;
     margin-top: 300px;
+    width: max-content;
 }
 .about-me h3{
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
+    display: flex;
+    justify-content: center;
 }
 .about-me p {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     font-weight: 100;
+}
+.language h3 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.language ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.language ul li img {
+    width: 100px;
+    height: 100px;
 }
 
 
