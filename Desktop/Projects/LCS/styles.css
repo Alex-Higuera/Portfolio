@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 0 4px;
+}
+
+
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #1E305A;
+}
+
+.nav-logo {
+   max-width: 5%;
+   height: 5%;
+   padding: 0 10px;
+   cursor: pointer;
+}
+
+.quote {
+    padding-right: 10px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #CFD8DC;
+    opacity: 0.8;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #1E305A;
+    color: white;
+    opacity: 1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #CFD8DC;
+    opacity: 0.8;
+}
+
+.main-logo {
+    height: 400px;
+    width: auto;
+    margin-top: 150px;
+    margin-left: 525px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-verb {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E305A;
+    font-size: 200%;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+.services {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    color: #1E305A;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.residential {
+padding-top: 300px;
+width: auto;
+height: 100px;
+
+} 
